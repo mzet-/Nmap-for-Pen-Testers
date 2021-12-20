@@ -5,7 +5,20 @@ Currently scripts for detecting following vulnerabilities are added:
 ### Multiple memory corruptions in OpenSLP as used in VMware ESXi
 
 **IDs:** CVE-2019-5544, CVE-2020-3992, CVE-2021-21974
-**Script:** ``
+
+**Script:** [vmware-svrloc-vulns.nse](https://github.com/mzet-/Nmap-for-Pen-Testers/blob/master/scripts/vmware-svrloc-vulns.nse)
+
 **Vulnerability details:** 
+
 **Pull request in upstream:** `https://github.com/nmap/nmap/pull/2266`
+
 **Script author:** mzet
+
+**Deployment:** 
+
+```
+cd nmap/
+wget https://raw.githubusercontent.com/mzet-/Nmap-for-Pen-Testers/master/scripts/vmware-svrloc-vulns.nse -O scripts/
+wget https://raw.githubusercontent.com/mzet-/Nmap-for-Pen-Testers/master/nselib/srvloc.lua -O nselib/srvloc.lua
+./nmap --script-update
+```
