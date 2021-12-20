@@ -18,7 +18,7 @@ Currently scripts for detecting following vulnerabilities are added:
 
 ```
 cd nmap/
-wget https://raw.githubusercontent.com/mzet-/Nmap-for-Pen-Testers/master/scripts/vmware-svrloc-vulns.nse -O scripts/
+wget https://raw.githubusercontent.com/mzet-/Nmap-for-Pen-Testers/master/scripts/vmware-svrloc-vulns.nse -O scripts/vmware-svrloc-vulns.nse
 wget https://raw.githubusercontent.com/mzet-/Nmap-for-Pen-Testers/master/nselib/srvloc.lua -O nselib/srvloc.lua
 ./nmap --script-update
 ```
