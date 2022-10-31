@@ -22,3 +22,9 @@ wget https://raw.githubusercontent.com/mzet-/Nmap-for-Pen-Testers/master/scripts
 wget https://raw.githubusercontent.com/mzet-/Nmap-for-Pen-Testers/master/nselib/srvloc.lua -O nselib/srvloc.lua
 ./nmap --script-update
 ```
+
+### Cisco SIET
+
+```
+https://github.com/Sab0tag3d/SIETpy3/blob/main/cisco-siet.nse
+```
