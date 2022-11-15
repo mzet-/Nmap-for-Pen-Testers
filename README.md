@@ -28,3 +28,7 @@ wget https://raw.githubusercontent.com/mzet-/Nmap-for-Pen-Testers/master/nselib/
 ```
 https://github.com/Sab0tag3d/SIETpy3/blob/main/cisco-siet.nse
 ```
+
+### SMBGhost (CVE-2020-0796)
+
+    https://github.com/psc4re/NSE-scripts/blob/master/cve-2020-0796.nse
